@@ -23,6 +23,13 @@ The corresponding private key will be logged in your terminal.
 
 For extra security disconnect you device from the internet before running `yarn start`.
 
+## Clear clipboard data
+
+```bash
+# on mac
+pbcopy < /dev/null
+```
+
 ## License
 
 MIT
