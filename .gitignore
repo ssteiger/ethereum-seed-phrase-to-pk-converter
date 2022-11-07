@@ -1,0 +1,18 @@
+# secrets
+.env
+.env.*
+
+# nodejs
+node_modules/
+
+# build files
+.dist/
+.build/
+
+# logs
+.logs
+logs/combined.log
+logs/error.log
+
+# yarn
+yarn-error.log
