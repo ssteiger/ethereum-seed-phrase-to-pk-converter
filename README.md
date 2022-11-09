@@ -1,6 +1,6 @@
 # Local ethereum mnemonic seed phrase to private key converter
 
-## Getting started
+## Setup
 
 ```bash
 # 1. install dependencies
