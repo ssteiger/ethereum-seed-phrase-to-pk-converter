@@ -8,6 +8,8 @@ export default async function convertSeedPhraseToPk() {
 
   const mnemonicWallet = Wallet.fromMnemonic(process.env.MY_MNEMONIC)
 
+  console.log(' address:', mnemonicWallet.address)
+  console.log('\n')
   console.log(' mnemonic:', process.env.MY_MNEMONIC)
   console.log('\n')
   console.log(' pk:', mnemonicWallet.privateKey)
